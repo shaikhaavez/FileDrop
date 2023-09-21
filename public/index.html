@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FileDrop - Share Files Immediately</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="upload-container">
+      <div class="dropzone">
+        <div class="icon-container">
+          <img
+            src="./document.png"
+            alt="file-icon"
+            class="center"
+            draggable="false"
+          />
+          <img
+            src="./document.png"
+            alt="file-icon"
+            class="left"
+            draggable="false"
+          />
+          <img
+            src="./document.png"
+            alt="file-icon"
+            class="right"
+            draggable="false"
+          />
+        </div>
+        <input type="file" id="fileInput"/>
+        <div class="title">
+          Drop your files here, or <span class="browseBtn">Browse</span>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
