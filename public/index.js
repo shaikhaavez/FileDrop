@@ -2,7 +2,7 @@ const dropZone = document.querySelector(".dropzone");
 const browseBtn = document.querySelector(".browseBtn");
 const fileInput = document.querySelector("#fileInput");
 
-const host = "https://innshare.herokuapp.com";
+const host = " ";
 const uploadurl = `${host}/api/files`;
 //const uploadurl = `${host/api/files`;
 
