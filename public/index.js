@@ -2,7 +2,7 @@ const dropZone = document.querySelector(".dropzone");
 const browseBtn = document.querySelector(".browseBtn");
 const fileInput = document.querySelector("#fileInput");
 
-const host = " ";
+const host = "https://filedrop-go02.onrender.com/";
 const uploadurl = `${host}/api/files`;
 //const uploadurl = `${host/api/files`;
 
