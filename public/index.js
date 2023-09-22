@@ -41,7 +41,9 @@ const uploadFile = () => {
 
     const xhr = new XMLHttpRequest();
     xhr.onreadystatechange = () => {
-        console.log(xhr.readyState);
+        if(xhr.readyState === XMLHttpRequest.DONE){
+          console.log(xhr.responseText);
+        }
     }
 
     xhr.open('POST', uploadurl);
